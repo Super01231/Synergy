@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME</title>
+    <style>
+        *{box-sizing: border-box;
+        padding: 0;
+        margin: 0;}
+        body{background-color: rgb(128, 0, 255);
+            place-items:centre;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container{background-color: white;
+        border-radius: 20px;
+        margin-top: 30px;
+        }
+        .container ul{
+            overflow: auto;
+        }
+        .container li{
+            float: left;
+            margin: 10px 185px ;
+            list-style: none;
+            font-size: 20px;
+        }
+        .main_flow{
+            width: auto;
+            text-align: center;
+        }
+        .cards{
+            position: relative;
+        }
+        .cards_inner{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px;
+        }
+        .cards_heading{
+            margin: auto;
+        }
+        .card {
+            margin:auto;
+            padding: 100px 50px;
+            --flow-space: 0.5em;
+            --hsl: var(--hue), var(--saturation), var(--lightness);
+            flex: 1 1 14rem;
+            padding: 1.5em 2em;
+            display: grid;
+            grid-template-rows: auto auto auto 1fr;
+            align-items: start;
+            gap: 1.25em;
+            color: #eceff1;
+            background-color: #2b2b2b;
+            border: 1px solid #eceff133;
+            border-radius: 15px;
+            border: solid white 10px;
+            float: left;
+            clear: left;
+            margin: 300px 300px 300px 300px;
+            }
+        img{vertical-align: middle;
+            height: 50%;
+            margin: 100px 70px 0px 350px;
+            width:100px; 
+            border-radius: 50%;
+            }
+    </style>
+</head>
+<body>
+    <header><nav class="container">
+        <ul>
+           <a href="#bio" ><li>Bio</li></a>
+           <a href="#education" ><li>Education</li></a>
+           <a href="#hobbies" ><li>Hobbies</li></ul></a>
+        </ul>
+        </nav>
+    </header>
+    <div>
+          <img src="WhatsApp Image 2023-10-28 at 12.16.33 AM.jpeg" alt="me" style="width:50%" >
+        </div>
+    <main class="main_flow">
+        <div class="main_cards cards">
+            <div class="cards_inner">
+                <div class="card">
+                <h2 class="cards_heading" id="bio">BIO</h2>
+                <p class="card_bio">
+                Pushpendra
+                Born on May 30, 2004, in Gwalior, Madhya Pradesh, I am a driven and passionate individual on a journey of self-discovery and achievement. 
+                Challenges are but stepping stones on my path to success, and I never give up until I reach my goals. My personality is a blend of both introverted and extroverted qualities, making me an ambivert who enjoys the company of diverse individuals and seeks out new connections and experiences.
+                In a world full of possibilities, I am excited about the endless opportunities to learn, grow, and connect. My journey is just beginning, and I look forward to the adventures and achievements that lie ahead.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="cards_card card">
+            <h2 class="card_heading" id="education">Education</h2>
+            <p class="card_education">
+            I embarked on my educational path in the heart of Madhya Pradesh, completing my primary, secondary, and higher secondary education through the Madhya Pradesh Board. Currently, I am pursuing a Bachelor's degree in Mechanical Engineering at the prestigious National Institute of Technology.
+            My life extends beyond the classroom and laboratory.</p>
+        </div>
+        <div class="cards_card card">
+            <h2 class="card_heading" id="hobbies">Hobbies</h2>
+            <p class="card_hobbies">
+                I find solace and inspiration in the harmonious melodies of music, delve into captivating worlds through anime, and continually thirst for knowledge. My insatiable curiosity drives me to explore new ideas, concepts, and cultures.
+                I am a firm believer in the power of ambition and perseverance.
+            </p>
+        </div>
+        </main>
+</body>
+</html>
